@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+.btn-modern{
+    background-color: #f6f6f6;
+    border: 1px solid #bbb;
+    border-radius: 200px;
+    color: #666;
+    cursor: pointer;
+    font-size: 2.5vh;
+    height: 8vh;
+    outline: none;
+    padding: 8px 16px;
+    transition: all 0.2s;
+    width: 12vw;
+}
+.btn-modern:hover{
+    border:1px solid #444;
+    box-shadow: 0px 0px 8px #999;
+    background-color: #666;
+    color: #fff;
+}
