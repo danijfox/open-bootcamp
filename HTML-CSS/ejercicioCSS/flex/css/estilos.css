@@ -24,3 +24,19 @@
     height: 12vh;
     background-color: rgb(179, 179, 179);
 }
+
+@media (max-width: 640px){
+.container{
+    grid-template-columns: 1fr;
+    grid-column: auto;
+    gap: 0;
+}
+.nav{
+    grid-row-start: none;
+    height: 10vh;
+    flex-direction: row;
+}
+.content{
+    height: 90vh;
+}
+}
