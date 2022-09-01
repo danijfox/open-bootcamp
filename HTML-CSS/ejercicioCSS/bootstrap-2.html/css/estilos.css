@@ -1,0 +1,4 @@
+.grid-md{
+    display: grid;
+    grid-template-columns: 3f 1fr;
+}
