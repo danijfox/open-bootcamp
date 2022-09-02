@@ -1,0 +1,25 @@
+.flex-row-hr {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  width: 100%;
+}
+
+.flex-row-hl {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-end;
+  width: 100%;
+}
+
+.flex-col-tl {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.flex-col-bl {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}/*# sourceMappingURL=flow.css.map */
