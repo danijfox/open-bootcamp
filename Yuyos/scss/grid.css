@@ -1,4 +1,15 @@
-.container {
-  width: 90vw;
+.header .container {
+  display: grid;
+  width: 84%;
+  grid-template-columns: 10vh auto 10vh;
+  background-color: #f3f3f3;
   margin: 0 auto;
+}
+
+.content .container {
+  display: grid;
+  flex-flow: row;
+  width: 84%;
+  grid-template-columns: 1fr 1fr;
+  background-color: #666;
 }/*# sourceMappingURL=grid.css.map */

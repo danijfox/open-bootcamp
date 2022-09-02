@@ -149,14 +149,6 @@ input {
   justify-content: flex-end;
 }
 
-.container {
-  display: grid;
-  width: 84%;
-  grid-template-columns: 10vh auto 10vh;
-  background-color: #f3f3f3;
-  margin: 0 auto;
-}
-
 .menu {
   display: flex;
 }

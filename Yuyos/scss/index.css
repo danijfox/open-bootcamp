@@ -151,14 +151,17 @@ input {
   justify-content: flex-end;
 }
 
-.container {
-  width: 90vw;
+.header .container {
+  display: grid;
+  width: 84%;
+  grid-template-columns: 10vh auto 10vh;
+  background-color: #f3f3f3;
   margin: 0 auto;
 }
 
 .menu {
-  background-color: #333;
+  display: flex;
 }
 .menu .menu_item a {
-  color: #fff;
+  color: #333;
 }/*# sourceMappingURL=index.css.map */
