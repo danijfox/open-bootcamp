@@ -1,15 +1,41 @@
-.header .container {
+body {
+  background-color: #f1f1f1;
+}
+
+.container {
   display: grid;
-  width: 84%;
-  grid-template-columns: 10vh auto 10vh;
-  background-color: #f3f3f3;
+  gap: 1.25rem;
+  width: 84vw;
+  padding: 1.25rem;
   margin: 0 auto;
 }
 
-.content .container {
+.header .container {
+  background-color: #f3f3f3;
+  grid-template-columns: 10vh auto 10vh;
+}
+
+.destacado.container {
   display: grid;
   flex-flow: row;
-  width: 84%;
-  grid-template-columns: 1fr 1fr;
-  background-color: #666;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  background-color: #ebebeb;
+}
+
+.galeria.container {
+  display: grid;
+  flex-flow: row;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #ebebeb;
+}
+
+.element {
+  background-color: #ddd;
+  padding: 1.25rem;
+}
+
+.img {
+  width: 100%;
+  height: 250px;
+  background: #fff;
 }/*# sourceMappingURL=grid.css.map */

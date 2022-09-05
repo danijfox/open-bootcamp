@@ -123,30 +123,46 @@ input {
   margin: 0.125rem;
 }
 
-.flex-row-hr {
-  display: flex;
-  flex-direction: row;
-  justify-items: flex-start;
+body {
+  background-color: #f1f1f1;
+}
+
+.container {
+  display: grid;
+  gap: 1.25rem;
+  width: 84vw;
+  padding: 1.25rem;
+  margin: 0 auto;
+}
+
+.header .container {
+  background-color: #f3f3f3;
+  grid-template-columns: 10vh auto 10vh;
+}
+
+.destacado.container {
+  display: grid;
+  flex-flow: row;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  background-color: #ebebeb;
+}
+
+.galeria.container {
+  display: grid;
+  flex-flow: row;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #ebebeb;
+}
+
+.element {
+  background-color: #ddd;
+  padding: 1.25rem;
+}
+
+.img {
   width: 100%;
-}
-
-.flex-row-hl {
-  display: flex;
-  flex-direction: row;
-  justify-items: flex-end;
-  width: 100%;
-}
-
-.flex-col-tl {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.flex-col-bl {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  height: 250px;
+  background: #fff;
 }
 
 .menu {
