@@ -1,7 +1,7 @@
 {
   "name": "01-crearproyecto",
   "version": "1.0.0",
-  "description": "Mi primer proyecto de javascript",
+  "description": "Mi primer proyecto",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,16 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danijfox/open-bootcamp.git#main"
+    "url": "https://github.com/danijfox/open-bootcamp/blob/main/javascript/01-CrearProyecto"
   },
   "keywords": [
     "javascript",
     "project"
   ],
   "author": "Daniel Paino",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/danijfox/open-bootcamp/issues"
-  },
-  "homepage": "https://github.com/danijfox/open-bootcamp/tree/main#readme"
+  "license": "ISC"
 }
