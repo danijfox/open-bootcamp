@@ -1,0 +1,10 @@
+var nombre = "Daniel";
+var apellido = "Paíno";
+var estudiante = `${nombre} ${apellido}`;
+var estudianteMayus = estudiante.toUpperCase();
+var estudianteMinus = estudiante.toLowerCase();
+var estudianteLength = estudiante.length;
+var firstLetter = estudiante[0];
+var lastLetter = apellido.charAt(4);
+var estudianteEspace = estudiante.trim();
+var estudianteContent = estudiante.indexOf("estudiante");
