@@ -26,3 +26,7 @@ console.log(fecha4.getTime() === fecha2.getTime());
 console.log(fecha4.getDate());
 console.log(fecha4.getMonth() + 1); //Los meses comienzan en 0
 console.log(fecha4.getFullYear());
+
+// transformar la fecha a formato local
+// mozilla toLocalDateString()
+console.log(fecha2.toLocaleDateString(es - ES));
