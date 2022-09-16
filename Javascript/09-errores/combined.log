@@ -17,3 +17,7 @@
 {"level":"warn","message":"advertencia","service":"user-service"}
 {"level":"error","message":"esto es un error","service":"user-service"}
 {"level":"debug","message":"debugueando","service":"user-service"}
+{"level":"info","message":"mensaje informativo","service":"user-service"}
+{"level":"warn","message":"advertencia","service":"user-service"}
+{"level":"error","message":"esto es un error","service":"user-service"}
+{"level":"debug","message":"debugueando","service":"user-service"}
