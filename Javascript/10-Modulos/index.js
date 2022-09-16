@@ -1,21 +1,13 @@
-//Modulos, porción de código que se puede reutilizar en distintas partes
+// Formas de importar y exportar módulos
+// 1. CommonJS - require
+// 2. Import ES6 - import
 
-function suma(a, b) {
-  return a + b;
-}
-function multi(a, b) {
-  return a * b;
-}
-function eleva(a, b) {
-  return a ** b;
-}
-function factorial(a) {
-  let factorial = 1;
-  for (let index = 2; index <= array.length; index++) {
-    factorial *= index;
-  }
-  return factorial;
-}
+const moduloMatematicas = require("../modulos/matematica.js");
 
-const fact = factorial(5);
-console.log(fact);
+//const fact = factorial(5);
+//console.log(fact);
+
+//const sum = suma(14, 34);
+//console.log(sum);
+
+//console.log(module);
