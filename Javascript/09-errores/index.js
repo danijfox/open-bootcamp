@@ -15,8 +15,7 @@ const logger = winston.createLogger({
 });
 
 // Log Nodejs
-console.log("hola estoy saliendo por pantalla");
-console.info("mensaje informativo");
-console.warn("advertencia");
-console.error("esto es un error");
-console.debug("debugueando");
+logger.info("mensaje informativo");
+logger.warn("advertencia");
+logger.error("esto es un error");
+logger.debug("debugueando");
