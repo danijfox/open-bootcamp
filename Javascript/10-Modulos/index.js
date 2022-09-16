@@ -2,7 +2,8 @@
 // 1. CommonJS - require
 // 2. Import ES6 - import
 
-const moduloMatematicas = require("../modulos/matematica.js");
+const moduloMatematicas = require("./modulos/matematica.js");
+console.log(moduloMatematicas);
 
 //const fact = factorial(5);
 //console.log(fact);
