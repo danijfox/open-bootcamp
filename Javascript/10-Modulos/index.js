@@ -2,13 +2,10 @@
 // 1. CommonJS - require
 // 2. Import ES6 - import
 
-const moduloMatematicas = require("./modulos/matematica.js");
-console.log(moduloMatematicas);
+//const moduloMatematicas = require("./modulos/matematicas.js");
 
-//const fact = factorial(5);
-//console.log(fact);
+//Forma nueva de hacerlo
+const { factorial, suma } = require("./modulos/matematicas.js");
 
-//const sum = suma(14, 34);
-//console.log(sum);
-
-//console.log(module);
+const fact = moduloMatematicas.factorial(5);
+console.log(fact);
