@@ -5,7 +5,7 @@
 //const moduloMatematicas = require("./modulos/matematicas.js");
 
 //Forma nueva de hacerlo
-const { factorial, suma } = require("./modulos/matematicas.js");
+const { factorial, suma } = require("./modulos/matematicas");
 
-const fact = moduloMatematicas.factorial(5);
+const fact = factorial(5);
 console.log(fact);
