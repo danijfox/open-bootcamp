@@ -16,3 +16,5 @@ export function factorial(a) {
   }
   return factorial;
 }
+
+export const pi = 3.1416;
