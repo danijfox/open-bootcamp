@@ -1,1 +1,2 @@
-const nombre = "Dani"
+const nombre = "Dani";
+const otroNombre = "Jose";
