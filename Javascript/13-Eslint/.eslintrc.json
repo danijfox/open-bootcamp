@@ -1,0 +1,12 @@
+//Archivo de configuracion de reglas 
+
+{
+    "rules": {
+        // Override our default settings just for this directory
+        "eqeqeq": "warn",
+        "strict": "off",
+        "eslint quotes": ["error", "double"],
+        "semi": ["error", "never"],
+        "no-dupe-keys": "error"
+    }
+}
